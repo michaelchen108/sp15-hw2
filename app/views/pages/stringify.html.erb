@@ -1,0 +1,7 @@
+<h1> Welcome to the Stringify Page <h1/>
+
+ <% if params[:name] != "" and params[:adjective] != "" %>
+    <% @text = params[:name] + " is so " + params[:adjective] %>
+ <% end %>
+
+ <%= @text %>
